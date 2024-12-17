@@ -1,0 +1,14 @@
+{
+  "name": "naive-service",
+  "version": "1.0.0",
+  "description": "A naive Node.js service without proper concurrency handling in Postgres",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
